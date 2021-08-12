@@ -9,7 +9,7 @@ function Button() {
     return (
         <div>
             {
-                show ? <p>Please Show me!</p> : null
+                show ? <p>Please Show Me!</p> : null
             }
             <button onClick={clickChange}>Click Me</button>
         </div>

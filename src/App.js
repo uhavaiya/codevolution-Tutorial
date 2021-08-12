@@ -18,12 +18,15 @@ import './appStyles.css'
 import styles from './appStyle.module.css'
 import Form from './components/Form'
 import Button from './components/Button'
+import Boots from './components/Boots';
+
 class App extends Component {
   render() {
     return (
       
       <div className="App">
-        <Button />
+        <Boots />
+        {/* <Button /> */}
         {/* <Form /> */}
         {/* <Inline /> */}
         {/* <h1 className='error'>Error</h1> */}
