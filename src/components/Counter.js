@@ -1,5 +1,4 @@
 import React, { Component } from 'react'
-
 class Counter extends Component {
 
     constructor(props) {
@@ -9,11 +8,10 @@ class Counter extends Component {
             count: 0
         }
     }
-    
     increment() {
         this.setState(
             {
-                count: this.state.count + 5
+                count: this.state.count + 1
             },
             // () => {
             //     console.log(' Callback value', this.state.count)
@@ -21,15 +19,6 @@ class Counter extends Component {
         )
         console.log(this.state.count)
     }
-
-    // incrementFive() {
-    //     this.increment()
-    //     this.increment()
-    //     this.increment()
-    //     this.increment()
-    //     this.increment()
-    // }
-
     render() {
         return (
             <div>
@@ -39,5 +28,4 @@ class Counter extends Component {
         )
     }
 }
-
 export default Counter
