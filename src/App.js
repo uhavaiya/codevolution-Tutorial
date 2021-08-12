@@ -17,13 +17,14 @@ import Inline from './components/Inline';
 import './appStyles.css'
 import styles from './appStyle.module.css'
 import Form from './components/Form'
-
+import Button from './components/Button'
 class App extends Component {
   render() {
     return (
       
       <div className="App">
-        <Form />
+        <Button />
+        {/* <Form /> */}
         {/* <Inline /> */}
         {/* <h1 className='error'>Error</h1> */}
         {/* <h1 className={styles.sucess}>Success</h1> */}
