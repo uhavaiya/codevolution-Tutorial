@@ -7,8 +7,8 @@ import Welcome from './components/Welcome';
 import Hello from './components/Hello';
 import Message from './components/Message';
 import Counter from './components/Counter';
-import FunctionClick from './components/FunctionClick';  
-import ClassClick from './components/ClassClick';         
+import FunctionClick from './components/FunctionClick';
+import ClassClick from './components/ClassClick';
 import EventBind from './components/EventBind';
 import ParentComponents from './components/ParentComponents';
 import UserGreeting from './components/UserGreeting';
@@ -25,13 +25,15 @@ import Pure from './components/Pure'
 import RefsDemo from './components/RefsDemo';
 import Input from './components/Input';
 import FocusInput from './components/FocusInput'
+import FRParentInput from './components/FRParentInput';
 
 class App extends Component {
   render() {
     return (
-      
+
       <div className="App">
-        <FocusInput />
+        <FRParentInput />
+        {/* <FocusInput /> */}
         {/* <RefsDemo /> */}
         {/* <Pure /> */}
         {/* <Table /> */}
@@ -64,8 +66,8 @@ class App extends Component {
       <Welcome name='Clark' heroName="batman"/>
       <Welcome name='Diana' heroName="boreman"/>
       <Hello /> */}
-      {/* <Greet name='Diana' heroName="boreman" /> */}
-      {/* <Welcome name='Bruce' heroName="batman"/> */}
+        {/* <Greet name='Diana' heroName="boreman" /> */}
+        {/* <Welcome name='Bruce' heroName="batman"/> */}
 
       </div>
     )
