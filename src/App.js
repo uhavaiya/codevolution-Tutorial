@@ -32,7 +32,7 @@ class App extends Component {
     return (
 
       <div className="App">
-        <FRParentInput />
+        {/* <FRParentInput /> */}
         {/* <FocusInput /> */}
         {/* <RefsDemo /> */}
         {/* <Pure /> */}
