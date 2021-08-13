@@ -25,9 +25,9 @@ class App extends Component {
     return (
       
       <div className="App">
-        <Boots />
+        {/* <Boots /> */}
         {/* <Button /> */}
-        {/* <Form /> */}
+        <Form />
         {/* <Inline /> */}
         {/* <h1 className='error'>Error</h1> */}
         {/* <h1 className={styles.sucess}>Success</h1> */}
