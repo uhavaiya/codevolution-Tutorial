@@ -28,38 +28,46 @@ import FocusInput from './components/FocusInput'
 import FRParentInput from './components/FRParentInput';
 import PortalDemo from './components/PortalDemo';
 import Hero from './components/Hero';
+import ErrorBoundry from './components/ErrorBoundry';
 
 class App extends Component {
   render() {
     return (
 
       <div className="App">
-        <Hero heroName="Batman" />
-        <Hero heroName="Superman" />
-        <Hero heroName="joker" />
-        {/* <PortalDemo /> */}
-        {/* <FRParentInput /> */}
-        {/* <FocusInput /> */}
-        {/* <RefsDemo /> */}
-        {/* <Pure /> */}
-        {/* <Table /> */}
-        {/* <Lifecycle /> */}
-        {/* <Boots /> */}
-        {/* <Button /> */}
-        {/* <Form /> */}
-        {/* <Inline /> */}
-        {/* <h1 className='error'>Error</h1> */}
-        {/* <h1 className={styles.sucess}>Success</h1> */}
-        {/* <Stylesheet primary={true} /> */}
-        {/* <NameList /> */}
-        {/* <UserGreeting /> */}
-        {/* <ParentComponents /> */}
-        {/* <FunctionClick /> */}
-        {/* <ClassClick /> */}
-        {/* <EventBind /> */}
-        {/* <Counter /> */}
-        {/* <Message /> */}
-        {/* <Greet name='Bruce' heroName="barman">
+        <ErrorBoundry>
+          <Hero heroName="Batman" />
+        </ErrorBoundry>
+        <ErrorBoundry>
+          <Hero heroName="Superman" />
+        </ErrorBoundry>
+        <ErrorBoundry>
+          <Hero heroName="joker" />
+        </ErrorBoundry>
+        
+        {/* <PortalDemo /> */ }
+    {/* <FRParentInput /> */ }
+    {/* <FocusInput /> */ }
+    {/* <RefsDemo /> */ }
+    {/* <Pure /> */ }
+    {/* <Table /> */ }
+    {/* <Lifecycle /> */ }
+    {/* <Boots /> */ }
+    {/* <Button /> */ }
+    {/* <Form /> */ }
+    {/* <Inline /> */ }
+    {/* <h1 className='error'>Error</h1> */ }
+    {/* <h1 className={styles.sucess}>Success</h1> */ }
+    {/* <Stylesheet primary={true} /> */ }
+    {/* <NameList /> */ }
+    {/* <UserGreeting /> */ }
+    {/* <ParentComponents /> */ }
+    {/* <FunctionClick /> */ }
+    {/* <ClassClick /> */ }
+    {/* <EventBind /> */ }
+    {/* <Counter /> */ }
+    {/* <Message /> */ }
+    {/* <Greet name='Bruce' heroName="barman">
         <p>This is children props</p>
       </Greet>
 
@@ -72,10 +80,10 @@ class App extends Component {
       <Welcome name='Clark' heroName="batman"/>
       <Welcome name='Diana' heroName="boreman"/>
       <Hello /> */}
-        {/* <Greet name='Diana' heroName="boreman" /> */}
-        {/* <Welcome name='Bruce' heroName="batman"/> */}
+    {/* <Greet name='Diana' heroName="boreman" /> */ }
+    {/* <Welcome name='Bruce' heroName="batman"/> */ }
 
-      </div>
+      </div >
     )
   }
 
