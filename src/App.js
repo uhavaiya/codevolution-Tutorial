@@ -22,13 +22,15 @@ import Boots from './components/Boots';
 import Lifecycle from './components/Lifecycle';
 import Table from './components/Table';
 import Pure from './components/Pure'
+import RefsDemo from './components/RefsDemo';
 
 class App extends Component {
   render() {
     return (
       
       <div className="App">
-        <Pure />
+        <RefsDemo />
+        {/* <Pure /> */}
         {/* <Table /> */}
         {/* <Lifecycle /> */}
         {/* <Boots /> */}
