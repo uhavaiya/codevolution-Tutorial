@@ -23,13 +23,16 @@ import Lifecycle from './components/Lifecycle';
 import Table from './components/Table';
 import Pure from './components/Pure'
 import RefsDemo from './components/RefsDemo';
+import Input from './components/Input';
+import FocusInput from './components/FocusInput'
 
 class App extends Component {
   render() {
     return (
       
       <div className="App">
-        <RefsDemo />
+        <FocusInput />
+        {/* <RefsDemo /> */}
         {/* <Pure /> */}
         {/* <Table /> */}
         {/* <Lifecycle /> */}
