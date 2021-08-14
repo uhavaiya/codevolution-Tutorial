@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 
-export class HoverCounter extends Component {
+class HoverCounter extends Component {
     constructor(props) {
         super(props)
 
@@ -17,11 +17,10 @@ export class HoverCounter extends Component {
         const { count } = this.state
         return (
             <div>
-                <h2 onMouseOver={this.incrementCount}>Hoverd {count} times</h2>
+                <h2 onMouseOver={this.incrementCount}>Hovered {count} times</h2>
             </div>
         )
     }
 }
 
 export default HoverCounter
-
